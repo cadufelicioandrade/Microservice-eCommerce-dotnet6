@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hKoOhtVNF6kB2jQdJm3xjGFSBHuny46oG4Bx53sVsBo=",
+  "Source": "ShoppingStore.CouponAPI",
+  "BasePath": "_content/ShoppingStore.CouponAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

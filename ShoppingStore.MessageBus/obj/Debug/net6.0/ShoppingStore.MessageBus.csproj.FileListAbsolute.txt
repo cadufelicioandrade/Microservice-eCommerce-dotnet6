@@ -1,0 +1,12 @@
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\bin\Debug\net6.0\ShoppingStore.MessageBus.deps.json
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\bin\Debug\net6.0\ShoppingStore.MessageBus.dll
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\bin\Debug\net6.0\ShoppingStore.MessageBus.pdb
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.csproj.AssemblyReference.cache
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.AssemblyInfoInputs.cache
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.AssemblyInfo.cs
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.csproj.CoreCompileInputs.cache
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.dll
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\refint\ShoppingStore.MessageBus.dll
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.pdb
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\ref\ShoppingStore.MessageBus.dll

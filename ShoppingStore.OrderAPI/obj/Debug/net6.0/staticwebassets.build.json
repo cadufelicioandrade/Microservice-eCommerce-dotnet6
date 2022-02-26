@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "i6EIZQu4exlOmGcCHF5UiBnnpgW8Kbb4bFJ2zD8Pex0=",
+  "Source": "ShoppingStore.OrderAPI",
+  "BasePath": "_content/ShoppingStore.OrderAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

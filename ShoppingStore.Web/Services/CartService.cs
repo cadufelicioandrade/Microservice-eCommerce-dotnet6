@@ -71,7 +71,7 @@ namespace ShoppingStore.Web.Services
 
             return await response.ReadContentAs<bool>();
         }
-        
+
         public async Task<bool> RemoveCoupon(string userId, string token)
         {
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
@@ -88,13 +88,19 @@ namespace ShoppingStore.Web.Services
             throw new NotImplementedException();
         }
 
-        public async Task<CartHeaderViewModel> Checkout(CartHeaderViewModel model, string token)
+        public async Task<object> Checkout(CartHeaderViewModel model, string token)
         {
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             HttpResponseMessage response = await _httpClient.PostAsJson($"{BasePath}/checkout", model);
             var json = JsonConvert.SerializeObject(model);
             if (!response.IsSuccessStatusCode)
+            {
                 throw new Exception($"Something went wrong when calling API: {response.ReasonPhrase}");
+            }
+            else if(response.StatusCode.ToString().Equals("PreconditionFailed"))
+            {
+                return "Coupon Price has changed, please confirm!";
+            }
 
             return await response.ReadContentAs<CartHeaderViewModel>();
         }

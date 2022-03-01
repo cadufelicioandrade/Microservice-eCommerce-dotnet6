@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8c1db13a-4a75-4df2-b766-9d3849eaa238": {
+      "ProjectGuid": "8c1db13a-4a75-4df2-b766-9d3849eaa238",
+      "DisplayName": "ShoppingStore.Web",
+      "ColorIndex": 0
+    },
+    "9b0c3c4b-0bc5-4fd4-b07f-0290e920584e": {
+      "ProjectGuid": "9b0c3c4b-0bc5-4fd4-b07f-0290e920584e",
+      "DisplayName": "ShoppingStore.ProductAPI",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "85db9516-ad2b-43e2-aa04-34dccdc6c35f": {
+      "ProjectGuid": "85db9516-ad2b-43e2-aa04-34dccdc6c35f",
+      "DisplayName": "ShoppingStore.IdentityServer",
+      "ColorIndex": 2
+    },
+    "33b72f18-7e07-4f99-bbfe-548d9733ebbb": {
+      "ProjectGuid": "33b72f18-7e07-4f99-bbfe-548d9733ebbb",
+      "DisplayName": "ShoppingStore.CartAPI",
+      "ColorIndex": 3
+    },
+    "33aec1eb-ff31-4406-b420-2102231dae4f": {
+      "ProjectGuid": "33aec1eb-ff31-4406-b420-2102231dae4f",
+      "DisplayName": "Teste",
+      "ColorIndex": 4
+    },
+    "7c2246c6-9f6c-49fb-8346-de4c97fcf149": {
+      "ProjectGuid": "7c2246c6-9f6c-49fb-8346-de4c97fcf149",
+      "DisplayName": "ShoppingStore.CartAPI",
+      "ColorIndex": 5
+    },
+    "efef3790-77ed-4d34-82d2-c64a86e1197a": {
+      "ProjectGuid": "efef3790-77ed-4d34-82d2-c64a86e1197a",
+      "DisplayName": "ShoppingStore.CartAPI",
+      "ColorIndex": 6
+    },
+    "3ef7bbd9-476d-4380-860d-c1138a15f809": {
+      "ProjectGuid": "3ef7bbd9-476d-4380-860d-c1138a15f809",
+      "DisplayName": "ShoppingStore.CouponAPI",
+      "ColorIndex": 7
+    },
+    "82d25a28-22db-434d-b8f5-2e655797b183": {
+      "ProjectGuid": "82d25a28-22db-434d-b8f5-2e655797b183",
+      "DisplayName": "ShoppingStore.MessageBus",
+      "ColorIndex": 8
+    },
+    "fd782e55-303d-4b9c-a94d-1b72d7398396": {
+      "ProjectGuid": "fd782e55-303d-4b9c-a94d-1b72d7398396",
+      "DisplayName": "ShoppingStore.OrderAPI",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}

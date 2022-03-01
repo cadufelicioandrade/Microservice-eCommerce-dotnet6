@@ -13,7 +13,7 @@ namespace ShoppingStore.Web.Controllers
         private readonly ICouponService _couponService;
 
         public CartController(IProductService productService,
-                              ICartService cartService, 
+                              ICartService cartService,
                               ICouponService couponService)
         {
             _productService = productService;
@@ -28,7 +28,7 @@ namespace ShoppingStore.Web.Controllers
 
             return View(response);
         }
-        
+
         [HttpPost]
         [ActionName("ApplyCoupon")]
         public async Task<IActionResult> ApplyCoupon(CartViewModel model)
@@ -83,7 +83,7 @@ namespace ShoppingStore.Web.Controllers
         {
             return View(await GetUserCart());
         }
-        
+
         [HttpPost]
         public async Task<IActionResult> Checkout(CartViewModel model)
         {
@@ -91,7 +91,12 @@ namespace ShoppingStore.Web.Controllers
 
             var response = await _cartService.Checkout(model.CartHeader, accessToken);
 
-            if (response != null)
+            if (response != null && response.GetType() == typeof(string))
+            {
+                TempData["Error"] = response;
+                return RedirectToAction(nameof(Checkout));
+            }
+            else if (response != null)
             {
                 return RedirectToAction(nameof(Confirmation));
             }
@@ -118,7 +123,7 @@ namespace ShoppingStore.Web.Controllers
                 {
                     var coupon = await _couponService.GetCoupon(response.CartHeader.CouponCode, accessToken);
 
-                    if(coupon?.CouponCode != null)
+                    if (coupon?.CouponCode != null)
                     {
                         response.CartHeader.DiscountAmount = coupon.DiscountAmount;
                     }

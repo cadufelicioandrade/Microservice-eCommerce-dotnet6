@@ -13,16 +13,19 @@ namespace ShoppingStore.CartAPI.Controllers
     {
         private readonly ILogger<CartController> _logger;
         private ICartRepository _cartRepository;
+        private ICouponRepository _couponRepository;
         private IRabbitMQMessageSender _rabbitMQMessageSender;
 
-        public CartController(ICartRepository productRepository, 
-                            ILogger<CartController> logger, 
-                            IRabbitMQMessageSender rabbitMQMessageSender)
+        public CartController(ICartRepository productRepository,
+                            ILogger<CartController> logger,
+                            IRabbitMQMessageSender rabbitMQMessageSender, 
+                            ICouponRepository couponRepository)
         {
-            _cartRepository = productRepository ?? 
+            _cartRepository = productRepository ??
                                     throw new ArgumentNullException(nameof(productRepository));
             _logger = logger;
             _rabbitMQMessageSender = rabbitMQMessageSender;
+            _couponRepository = couponRepository;
         }
 
         [HttpGet("find-cart/{id}")]
@@ -78,10 +81,24 @@ namespace ShoppingStore.CartAPI.Controllers
         [HttpPost("checkout")]
         public async Task<ActionResult<CheckoutHeaderVO>> Checkout([FromBody] CheckoutHeaderVO vo)
         {
-            if (vo?.UserId == null) return BadRequest();
+            string token = Request.Headers["Authorization"];
+            if (vo?.UserId == null) 
+                return BadRequest();
 
             var cart = await _cartRepository.GetCartByUserId(vo.UserId);
-            if (cart == null) return NotFound();
+
+            if (cart == null) 
+                return NotFound();
+
+            if (!String.IsNullOrEmpty(vo.CouponCode))
+            {
+                CouponVO coupon = await _couponRepository.GetCoupon(vo.CouponCode, token);
+                if(vo.DiscountAmount != coupon.DiscountAmount)
+                {
+                    return StatusCode(412);
+                }
+            }
+
             vo.CartDetails = cart.CartDetails;
             vo.DateTime = DateTime.Now;
 

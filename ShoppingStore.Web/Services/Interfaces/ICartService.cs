@@ -12,7 +12,7 @@ namespace ShoppingStore.Web.Services.Interfaces
         Task<bool> ApplyCoupon(CartViewModel cartViewModel, string token);
         Task<bool> RemoveCoupon(string userId, string token);
         Task<bool> ClearCart(string userId, string token);
-        Task<CartHeaderViewModel> Checkout(CartHeaderViewModel model, string token);
+        Task<object> Checkout(CartHeaderViewModel model, string token);
 
     }
 }

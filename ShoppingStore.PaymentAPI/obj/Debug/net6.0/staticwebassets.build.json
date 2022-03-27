@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jO2AAawBIpRmLZDaqhCTkE3OlmhOuN4u1DLAW/bVFNU=",
+  "Source": "ShoppingStore.PaymentAPI",
+  "BasePath": "_content/ShoppingStore.PaymentAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

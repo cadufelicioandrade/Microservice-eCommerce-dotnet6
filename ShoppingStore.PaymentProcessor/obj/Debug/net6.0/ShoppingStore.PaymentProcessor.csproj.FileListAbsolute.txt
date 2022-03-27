@@ -1,0 +1,12 @@
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\bin\Debug\net6.0\ShoppingStore.PaymentProcessor.deps.json
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\bin\Debug\net6.0\ShoppingStore.PaymentProcessor.dll
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\bin\Debug\net6.0\ShoppingStore.PaymentProcessor.pdb
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.csproj.AssemblyReference.cache
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.AssemblyInfoInputs.cache
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.AssemblyInfo.cs
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.csproj.CoreCompileInputs.cache
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.dll
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\refint\ShoppingStore.PaymentProcessor.dll
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.pdb
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ref\ShoppingStore.PaymentProcessor.dll

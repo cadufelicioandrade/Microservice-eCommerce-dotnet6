@@ -22,20 +22,15 @@ namespace ShoppingStore.CartAPI.RabbitMQSender
 
         public void SendMessage(BaseMessage baseMessage, string queueName)
         {
-            var factory = new ConnectionFactory
+            if (ConnectionExists())
             {
-                HostName = _hostName,
-                UserName = _userName,
-                Password = _password
-            };
 
-            _connection = factory.CreateConnection();
+                using var channel = _connection.CreateModel();
+                channel.QueueDeclare(queue: queueName, false, false, false, arguments: null);
 
-            using var channel = _connection.CreateModel();
-            channel.QueueDeclare(queue: queueName, false, false, false, arguments: null);
-
-            byte[] body = GetMessageASByteArray(baseMessage);
-            channel.BasicPublish(exchange: "", routingKey: queueName, basicProperties: null, body: body);
+                byte[] body = GetMessageASByteArray(baseMessage);
+                channel.BasicPublish(exchange: "", routingKey: queueName, basicProperties: null, body: body);
+            }
         }
 
         private byte[] GetMessageASByteArray(BaseMessage baseMessage)
@@ -50,5 +45,35 @@ namespace ShoppingStore.CartAPI.RabbitMQSender
 
             return Encoding.UTF8.GetBytes(json);
         }
+
+        private void CreateConnection()
+        {
+            try
+            {
+                var factory = new ConnectionFactory
+                {
+                    HostName = _hostName,
+                    UserName = _userName,
+                    Password = _password
+                };
+                _connection = factory.CreateConnection();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        private bool ConnectionExists()
+        {
+            if (_connection != null)
+                return true;
+
+
+            CreateConnection();
+
+            return _connection != null;
+        }
+
     }
 }

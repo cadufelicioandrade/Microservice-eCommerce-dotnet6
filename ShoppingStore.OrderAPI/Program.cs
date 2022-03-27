@@ -3,6 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using ShoppingStore.OrderAPI.MessageConsumer;
 using ShoppingStore.OrderAPI.Model.Context;
+using ShoppingStore.OrderAPI.RabbitMQSender;
 using ShoppingStore.OrderAPI.Repository;
 //using ShoppingStore.CarAPI.Model.Context;
 //using ShoppingStore.CarAPI.Repository;
@@ -60,6 +61,7 @@ build.UseMySql(connection, new MySqlServerVersion(new Version(5, 7, 36)));
 builder.Services.AddSingleton(new OrderRepository(build.Options));
 
 builder.Services.AddHostedService<RabbitMQCheckoutConsumer>();
+builder.Services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer("Bearer", options =>

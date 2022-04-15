@@ -10,7 +10,7 @@ namespace ShoppingStore.PaymentProcessor
     {
         public bool PaymentProcessor()
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }

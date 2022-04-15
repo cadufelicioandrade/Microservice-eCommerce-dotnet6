@@ -82,6 +82,7 @@ namespace ShoppingStore.CartAPI.Controllers
         public async Task<ActionResult<CheckoutHeaderVO>> Checkout([FromBody] CheckoutHeaderVO vo)
         {
             string token = Request.Headers["Authorization"];
+
             if (vo?.UserId == null) 
                 return BadRequest();
 
@@ -95,6 +96,7 @@ namespace ShoppingStore.CartAPI.Controllers
                 CouponVO coupon = await _couponRepository.GetCoupon(vo.CouponCode, token);
                 if(vo.DiscountAmount != coupon.DiscountAmount)
                 {
+                    // StatusCode 412 => Precondition Failed
                     return StatusCode(412);
                 }
             }
@@ -103,6 +105,8 @@ namespace ShoppingStore.CartAPI.Controllers
             vo.DateTime = DateTime.Now;
 
             _rabbitMQMessageSender.SendMessage(vo, "checkoutqueue");
+
+            await _cartRepository.ClearCart(vo.UserId);
 
             return Ok(vo);
         }

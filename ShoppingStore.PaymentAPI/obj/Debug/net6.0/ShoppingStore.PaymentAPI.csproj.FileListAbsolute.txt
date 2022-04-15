@@ -26,7 +26,9 @@ C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentAPI\bin
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentAPI\bin\Debug\net6.0\ShoppingStore.MessageBus.dll
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentAPI\bin\Debug\net6.0\ShoppingStore.PaymentProcessor.dll
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentAPI\bin\Debug\net6.0\ShoppingStore.MessageBus.pdb
+C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentAPI\bin\Debug\net6.0\ShoppingStore.PaymentProcessor.pdb
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentAPI\obj\Debug\net6.0\ShoppingStore.PaymentAPI.csproj.AssemblyReference.cache
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentAPI\obj\Debug\net6.0\ShoppingStore.PaymentAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentAPI\obj\Debug\net6.0\ShoppingStore.PaymentAPI.AssemblyInfoInputs.cache

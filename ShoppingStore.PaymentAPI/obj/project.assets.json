@@ -513,6 +513,16 @@
         "runtime": {
           "bin/placeholder/ShoppingStore.MessageBus.dll": {}
         }
+      },
+      "ShoppingStore.PaymentProcessor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShoppingStore.PaymentProcessor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingStore.PaymentProcessor.dll": {}
+        }
       }
     }
   },
@@ -1448,6 +1458,11 @@
       "type": "project",
       "path": "../ShoppingStore.MessageBus/ShoppingStore.MessageBus.csproj",
       "msbuildProject": "../ShoppingStore.MessageBus/ShoppingStore.MessageBus.csproj"
+    },
+    "ShoppingStore.PaymentProcessor/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingStore.PaymentProcessor/ShoppingStore.PaymentProcessor.csproj",
+      "msbuildProject": "../ShoppingStore.PaymentProcessor/ShoppingStore.PaymentProcessor.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1457,6 +1472,7 @@
       "Pomelo.EntityFrameworkCore.MySql >= 6.0.0",
       "RabbitMQ.Client >= 6.2.2",
       "ShoppingStore.MessageBus >= 1.0.0",
+      "ShoppingStore.PaymentProcessor >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "Swashbuckle.AspNetCore.Annotations >= 6.2.3",
       "Swashbuckle.AspNetCore.SwaggerUI >= 6.2.3"
@@ -1496,6 +1512,9 @@
           "projectReferences": {
             "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.MessageBus\\ShoppingStore.MessageBus.csproj": {
               "projectPath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.MessageBus\\ShoppingStore.MessageBus.csproj"
+            },
+            "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.PaymentProcessor\\ShoppingStore.PaymentProcessor.csproj": {
+              "projectPath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.PaymentProcessor\\ShoppingStore.PaymentProcessor.csproj"
             }
           }
         }

@@ -13,6 +13,7 @@
           "Pomelo.EntityFrameworkCore.MySql": "6.0.0",
           "RabbitMQ.Client": "6.2.2",
           "ShoppingStore.MessageBus": "1.0.0",
+          "ShoppingStore.PaymentProcessor": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3",
           "Swashbuckle.AspNetCore.Annotations": "6.2.3",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.2.3"
@@ -320,6 +321,11 @@
         "runtime": {
           "ShoppingStore.MessageBus.dll": {}
         }
+      },
+      "ShoppingStore.PaymentProcessor/1.0.0": {
+        "runtime": {
+          "ShoppingStore.PaymentProcessor.dll": {}
+        }
       }
     }
   },
@@ -610,6 +616,11 @@
       "hashPath": "system.threading.channels.4.7.1.nupkg.sha512"
     },
     "ShoppingStore.MessageBus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShoppingStore.PaymentProcessor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

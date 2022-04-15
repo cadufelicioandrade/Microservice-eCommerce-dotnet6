@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rdgDcH1m268LN7Z9DO9I2PnRe3vORD16HjiLfqhe1Wz3BrHvcL84xFr7u+OkjxpaQf8isFFPHFDeY+f3s6k0tQ==",
+  "dgSpecHash": "k4BGpHNSnR8S2gHMLtGW1W4EQuXshZDqUPLG+jaOSf5jULnm46Jy7tLZfhvd9dQLxS/9Jli+0AjyLal7wYhnEA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.Web\\ShoppingStore.Web.csproj",
+  "projectFilePath": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.Web\\ShoppingStore.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

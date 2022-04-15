@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IWToH2hz7oSQqKOszNmqj3UU/j+OtL7qO/ujXTok3Vn256vxsaBssj+J2yd1suM+yWC9FPVGeINfSisC3i2hXQ==",
+  "dgSpecHash": "ZVlS87xdYfUuCbyVfTagaFDM+b0dlGMmErs74rT1HR9Ugju3Sq/4qE6d56KKQ+NGX8RLgauosvIUj2If9TUDlA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.OrderAPI\\ShoppingStore.OrderAPI.csproj",
+  "projectFilePath": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.OrderAPI\\ShoppingStore.OrderAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.1\\microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",

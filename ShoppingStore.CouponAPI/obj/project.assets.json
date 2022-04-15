@@ -1412,11 +1412,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.CouponAPI\\ShoppingStore.CouponAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.CouponAPI\\ShoppingStore.CouponAPI.csproj",
       "projectName": "ShoppingStore.CouponAPI",
-      "projectPath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.CouponAPI\\ShoppingStore.CouponAPI.csproj",
+      "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.CouponAPI\\ShoppingStore.CouponAPI.csproj",
       "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.CouponAPI\\obj\\",
+      "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.CouponAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.IdentityServer\\ShoppingStore.IdentityServer.csproj": {}
+    "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.IdentityServer\\ShoppingStore.IdentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.IdentityServer\\ShoppingStore.IdentityServer.csproj": {
+    "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.IdentityServer\\ShoppingStore.IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.IdentityServer\\ShoppingStore.IdentityServer.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.IdentityServer\\ShoppingStore.IdentityServer.csproj",
         "projectName": "ShoppingStore.IdentityServer",
-        "projectPath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.IdentityServer\\ShoppingStore.IdentityServer.csproj",
+        "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.IdentityServer\\ShoppingStore.IdentityServer.csproj",
         "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.IdentityServer\\obj\\",
+        "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

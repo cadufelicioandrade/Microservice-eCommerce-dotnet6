@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sHX682rNyDAi5bAtmP6/6hKqN6fIWjHADGNi/l/uHrp/bATIQ8S6LGMyLQkwttC3Jgc7jF3SBlwvsG4u3BfitA==",
+  "dgSpecHash": "dYfbR06cgEUrrjuyvs8qAcBAJI+e3r33ttiQnNsE6hZCoLfy9oIB9nSboIUn1RFo7PlEz9h+nK0vTc4t9X8ujw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.MessageBus\\ShoppingStore.MessageBus.csproj",
+  "projectFilePath": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.MessageBus\\ShoppingStore.MessageBus.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

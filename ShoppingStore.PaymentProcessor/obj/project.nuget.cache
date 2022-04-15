@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pvDMKfBGYaW+Mnf1uTKEXkV3zOkIcNncGSNxQ8iMuLIG1IsFnYd+AZ3ZMAE2DxYkXtp833e8AAgA/755XGQNyw==",
+  "dgSpecHash": "6CXJscygkoFuYcUNPlqE2AVAF1ZoxUUe781Jc5t5nvfTK0RGBMpemIhrRaakptT3cLg+9rh1BgZLGjxXjUl/6g==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.PaymentProcessor\\ShoppingStore.PaymentProcessor.csproj",
+  "projectFilePath": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.PaymentProcessor\\ShoppingStore.PaymentProcessor.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

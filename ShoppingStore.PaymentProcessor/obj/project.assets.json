@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.PaymentProcessor\\ShoppingStore.PaymentProcessor.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.PaymentProcessor\\ShoppingStore.PaymentProcessor.csproj",
       "projectName": "ShoppingStore.PaymentProcessor",
-      "projectPath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.PaymentProcessor\\ShoppingStore.PaymentProcessor.csproj",
+      "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.PaymentProcessor\\ShoppingStore.PaymentProcessor.csproj",
       "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.PaymentProcessor\\obj\\",
+      "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.PaymentProcessor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

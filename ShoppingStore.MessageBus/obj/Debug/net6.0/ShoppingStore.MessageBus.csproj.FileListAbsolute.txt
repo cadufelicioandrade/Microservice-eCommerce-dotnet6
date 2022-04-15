@@ -10,3 +10,15 @@ C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\refint\ShoppingStore.MessageBus.dll
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.pdb
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.MessageBus\obj\Debug\net6.0\ref\ShoppingStore.MessageBus.dll
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\bin\Debug\net6.0\ShoppingStore.MessageBus.deps.json
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\bin\Debug\net6.0\ShoppingStore.MessageBus.dll
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\bin\Debug\net6.0\ShoppingStore.MessageBus.pdb
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.csproj.AssemblyReference.cache
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.dll
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\obj\Debug\net6.0\refint\ShoppingStore.MessageBus.dll
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\obj\Debug\net6.0\ShoppingStore.MessageBus.pdb
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.MessageBus\obj\Debug\net6.0\ref\ShoppingStore.MessageBus.dll

@@ -10,3 +10,15 @@ C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcess
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\refint\ShoppingStore.PaymentProcessor.dll
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.pdb
 C:\Projetos\Meus Projetos\LojaVirtual\ShoppingStore\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ref\ShoppingStore.PaymentProcessor.dll
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\bin\Debug\net6.0\ShoppingStore.PaymentProcessor.deps.json
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\bin\Debug\net6.0\ShoppingStore.PaymentProcessor.dll
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\bin\Debug\net6.0\ShoppingStore.PaymentProcessor.pdb
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.csproj.AssemblyReference.cache
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.dll
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\refint\ShoppingStore.PaymentProcessor.dll
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ShoppingStore.PaymentProcessor.pdb
+C:\Users\Carlos Eduardo\Desktop\Microservice-eCommerce-dotnet6\ShoppingStore.PaymentProcessor\obj\Debug\net6.0\ref\ShoppingStore.PaymentProcessor.dll

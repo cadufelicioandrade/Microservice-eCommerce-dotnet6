@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FxfsBkTRwhXoL/1PN0gvecZRGns0mFmBvkzFoBiGIpQKe7Hj3VotBB55p8F1xIHvf1F/BVItVylI0WRGMVzHgA==",
+  "dgSpecHash": "oq4sxGku+7UY+HMFJ2dm09KgoNRm1A7CG7jmxWyWIc92RU+eKPO9ujDKMmFuxOf7PNSO5jogtdWBwsRltLa1xA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Meus Projetos\\LojaVirtual\\ShoppingStore\\ShoppingStore.CouponAPI\\ShoppingStore.CouponAPI.csproj",
+  "projectFilePath": "C:\\Users\\Carlos Eduardo\\Desktop\\Microservice-eCommerce-dotnet6\\ShoppingStore.CouponAPI\\ShoppingStore.CouponAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
